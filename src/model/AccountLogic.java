@@ -9,6 +9,7 @@ package model;
 
 public class AccountLogic {
 
+////perform the math for a withdrawal
 	public double calcWithdrawal(BankAccount account) {
 		double dblReturn = 0;
 		double amount = account.getAmount();
@@ -18,6 +19,7 @@ public class AccountLogic {
 		return dblReturn;
 	}
 	
+////perform the math for a deposit
 	public double calcDeposit(BankAccount account) {
 		double dblReturn = 0;
 		double amount = account.getAmount();

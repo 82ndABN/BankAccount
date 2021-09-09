@@ -23,7 +23,7 @@ public class TestLogic1 {
 	}
 
 	@Test
-	public void testWithdrawal() {
+	public void testWithdrawal() { // test withdrawal method
 		
 		account.setBalance(3000);
 		account.setAmount(300);
@@ -33,7 +33,7 @@ public class TestLogic1 {
 	}
 	
 	@Test
-	public void testDeposit() {
+	public void testDeposit() { // test deposit method
 		
 		account.setBalance(2000);
 		account.setAmount(100);

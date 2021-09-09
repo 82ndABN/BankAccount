@@ -23,13 +23,13 @@ public class TestLogic2 {
 	}
 	
 	@Test
-	public void testNull() {
+	public void testNull() { // is owner (name) null
 		
 		assertNull(account.getOwner());
 	}
 	
 	@Test
-	public void testNotNull() {
+	public void testNotNull() { // is owner (name) not null
 		account.setOwner("Billy");
 		
 		assertNotNull(account.getOwner());
